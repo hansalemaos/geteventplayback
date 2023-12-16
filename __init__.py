@@ -295,4 +295,4 @@ def tempfolder():
     if not os.path.exists(tempfolder.name):
         os.makedirs(tempfolder.name)
 
-    return (tempfolder.name,)
+    return tempfolder.name
